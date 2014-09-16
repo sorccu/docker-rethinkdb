@@ -11,7 +11,7 @@ RUN apt-get update && \
       apt-key add - && \
     apt-get -y purge wget && \
     apt-get update && \
-    apt-get -y install rethinkdb=1.13.1-0ubuntu1~trusty && \
+    apt-get -y install rethinkdb=1.14.1-0ubuntu1~trusty && \
     apt-get -y autoremove
 
 # Volume for data.
